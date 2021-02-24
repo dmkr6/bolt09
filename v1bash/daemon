@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while true
+do
+echo "===================================" >> daemon.log
+date >> daemon.log
+arp -i eth0 >> daemon.log
+sleep 1m
+done
